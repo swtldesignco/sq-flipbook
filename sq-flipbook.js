@@ -5,7 +5,7 @@
  *
  * Usage (one code block, Business plan or higher):
  *   <div class="sq-flipbook" data-pdf="/s/your-file.pdf"></div>
- *   <script src="https://cdn.jsdelivr.net/gh/zsawtelle-lgtm/sq-flipbook@1/sq-flipbook.js" defer><\/script>
+ *   <script src="https://cdn.jsdelivr.net/gh/swtldesignco/sq-flipbook@1/sq-flipbook.js" defer><\/script>
  *
  * Optional data- attributes on the div:
  *   data-max-width="900"   max book width in px, two-page spread (default: fills the block)

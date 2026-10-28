@@ -1,0 +1,27 @@
+/* ==========================================================================
+   XX. PDF FLIPBOOK — sq-flipbook
+   ========================================================================== */
+
+/* XX.1 Arrows and controls */
+.sq-flipbook {
+  --sqfb-accent: var(--paragraphMediumColor, currentColor); /* arrows + controls */
+  --sqfb-arrow-size: 44px;        /* side arrow circles */
+  --sqfb-arrow-stroke: 1.5;       /* arrow line weight */
+  --sqfb-controls-size: .9rem;    /* page count, Full screen, Download */
+  --sqfb-controls-gap: 18px;
+}
+
+/* XX.2 Book */
+.sq-flipbook {
+  --sqfb-spine: .2;                         /* centre fold shadow, 0–1 */
+  --sqfb-link-hover: rgba(255, 220, 0, .18); /* highlight on PDF links */
+}
+
+/* XX.3 Full screen */
+.sq-flipbook {
+  --sqfb-fullscreen-bg: var(--siteBackgroundColor, #fff);
+  --sqfb-fullscreen-size: 88;     /* % of the screen the book may fill */
+}
+
+/* XX.4 Optional: brand accent for one booklet (use the block id) */
+/* #block-yui_123 .sq-flipbook { --sqfb-accent: #0f3d80; } */

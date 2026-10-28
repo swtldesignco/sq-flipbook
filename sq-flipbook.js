@@ -3,7 +3,7 @@
  * Renders a PDF with PDF.js, flips it with StPageFlip (page-flip, MIT).
  * Icons: Heroicons v2 outline (MIT), same set as Will's Toolkit.
  *
- * Usage (one code block, Business plan or higher):
+ * Usage (one code block, Core plan or higher):
  *   <div class="sq-flipbook" data-pdf="/s/your-file.pdf"></div>
  *   <script src="https://cdn.jsdelivr.net/gh/swtldesignco/sq-flipbook@1/sq-flipbook.js" defer><\/script>
  *
